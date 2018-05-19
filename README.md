@@ -261,9 +261,9 @@ var manifest = {
 
     "name": "Bollywood Thriller Movies",
     "description": "Addon for Bollywood Thriller Movies",
-    "icon": "https://raw.githubusercontent.com/stardevabhi/stremio-addon-bollywood-comedy-movies/master/icons/bollywood-com-icon.png", 
-    "logo": "https://raw.githubusercontent.com/stardevabhi/stremio-addon-bollywood-comedy-movies/master/icons/bollywood-com-icon.png", 
-    "background": "https://raw.githubusercontent.com/stardevabhi/stremio-addon-bollywood-comedy-movies/master/icons/bollywood-com-1920x1080.png",
+    "icon": "https://raw.githubusercontent.com/stardevabhi/stremio-addon-bollywood-thriller-movies/master/icons/bollywood-thriller.png", 
+    "logo": "https://raw.githubusercontent.com/stardevabhi/stremio-addon-bollywood-thriller-movies/master/icons/bollywood-thriller.png", 
+    "background": "https://raw.githubusercontent.com/stardevabhi/stremio-addon-bollywood-thriller-movies/master/icons/bollywood-thriller-1920x1080.png",
 
     // Properties that determine when Stremio picks this add-on
     "types": ["movie"], // your add-on will be preferred for those content types
@@ -341,9 +341,9 @@ var manifest = {
 
     "name": "Bollywood Thriller Movies",
     "description": "Addon for Bollywood Thriller Movies",
-    "icon": "https://raw.githubusercontent.com/stardevabhi/stremio-addon-bollywood-comedy-movies/master/icons/bollywood-com-icon.png", 
-    "logo": "https://raw.githubusercontent.com/stardevabhi/stremio-addon-bollywood-comedy-movies/master/icons/bollywood-com-icon.png", 
-    "background": "https://raw.githubusercontent.com/stardevabhi/stremio-addon-bollywood-comedy-movies/master/icons/bollywood-com-1920x1080.png",
+    "icon": "https://raw.githubusercontent.com/stardevabhi/stremio-addon-bollywood-thriller-movies/master/icons/bollywood-thriller.png", 
+    "logo": "https://raw.githubusercontent.com/stardevabhi/stremio-addon-bollywood-thriller-movies/master/icons/bollywood-thriller.png", 
+    "background": "https://raw.githubusercontent.com/stardevabhi/stremio-addon-bollywood-thriller-movies/master/icons/bollywood-thriller-1920x1080.png",
 
     // Properties that determine when Stremio picks this add-on
     "types": ["movie"], // your add-on will be preferred for those content types
@@ -365,7 +365,7 @@ console.log('Data loaded successfully!' + "\n");
 ```
  
 
-Create the server which listens on port 7000, with empty methods which are defined later: 
+Create the server which listens on port 7001, with empty methods which are defined later: 
 
 ```javascript
 
@@ -449,6 +449,6 @@ methods["meta.find"] = function(args, callback) {
 
 Open the stremio app and navigate to addons section via settings > addons and in the 'Addon repository URL' box, enter http://localhost:7001 and it will prompt you to install the addon, click on 'install' button and addon will be installed.
 
-Click, the 'Discover' tab and in the sorts section you can see the 'Bollywood Comedy Movies' tab, clicking it you can see the bollywood comedy movies listed.
+Click, the 'Discover' tab and in the sorts section you can see the 'Bollywood Thrillers' tab, clicking it you can see the bollywood thriller movies listed.
 
 That's All! :) 
