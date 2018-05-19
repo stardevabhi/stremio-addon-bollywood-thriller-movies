@@ -1,4 +1,4 @@
-# Addon for Stremio to retrieve Select Bollywood Thriller Movies from youtube.
+# Addon for Stremio to retrieve select bollywood thriller movies from youtube.
 
 ## steps to re-create the addon on windows
 
